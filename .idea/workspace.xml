@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f1e14cd-e016-4931-8980-d263943a0eab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/RtbUtils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/etl/Data2MySQL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/etl/Data2MySQL.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/etl/log2Parquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/etl/log2Parquet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/etl/Data2MySQL$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/etl/Data2MySQL$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +16,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DMP1902" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/com/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebProject" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,11 +62,11 @@
       <recent name="D:\app\JetBrains\IdeaProjects\DMP1902\src\main\scala\com\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.log2Parquet">
+  <component name="RunManager" selected="Application.Data2MySQL">
     <configuration name="Data2MySQL" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.etl.Data2MySQL" />
       <module name="DMP1902" />
-      <option name="PROGRAM_PARAMETERS" value="D:\BigData\BigData-课件和视频\课件第四阶段\day097-spark用户画像分析\资料\Spark用户画像分析\2016-10-01_06_p1_invalid.1475274123982.log D:\BigData\BigData-课件和视频\课件第四阶段\day097-spark用户画像分析\资料\Spark用户画像分析\long" />
+      <option name="PROGRAM_PARAMETERS" value="D:\BigData\BigData-课件和视频\课件第四阶段\day097-spark用户画像分析\资料\Spark用户画像分析\2016-10-01_06_p1_invalid.1475274123982.log D:\AA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.etl.*" />
@@ -96,8 +103,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.log2Parquet" />
         <item itemvalue="Application.Data2MySQL" />
+        <item itemvalue="Application.log2Parquet" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +134,7 @@
       <workItem from="1582729842782" duration="3971000" />
       <workItem from="1582734080304" duration="9581000" />
       <workItem from="1582786845294" duration="646000" />
-      <workItem from="1582804749399" duration="1578000" />
+      <workItem from="1582804749399" duration="7074000" />
     </task>
     <task id="LOCAL-00001" summary="模板测试">
       <created>1582726223238</created>
@@ -150,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582786893692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="etl格式转换代码3">
+      <created>1582806426362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582806426362</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +174,8 @@
     <MESSAGE value="模板测试" />
     <MESSAGE value="etl格式转换代码" />
     <MESSAGE value="etl格式转换代码2" />
-    <option name="LAST_COMMIT_MESSAGE" value="etl格式转换代码2" />
+    <MESSAGE value="etl格式转换代码3" />
+    <option name="LAST_COMMIT_MESSAGE" value="etl格式转换代码3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Inspections" timestamp="1582734310803">
@@ -171,10 +186,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1582769315061" />
-    <state x="47" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582769991909">
+    <state x="47" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582813018780">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="47" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582769991909" />
+    <state x="47" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582813018780" />
     <state x="870" y="206" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582726028732">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -187,30 +202,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="769" y="97" key="#log2Parquet/0.0.1536.834@0.0.1536.834" timestamp="1582735159752" />
-    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1582786892543">
+    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1582806425508">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582786892543" />
-    <state x="446" y="159" key="FileChooserDialogImpl" timestamp="1582735296474">
+    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582806425508" />
+    <state x="446" y="159" key="FileChooserDialogImpl" timestamp="1582806491303">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="446" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582735296474" />
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1582779202688">
+    <state x="446" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582806491303" />
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1582813023514">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582779202688" />
-    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1582779202687">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582813023514" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1582813023514">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582779202687" />
-    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1582779202687">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582813023514" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1582813023514">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582779202687" />
-    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1582779202688">
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582813023514" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1582813023514">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582779202688" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582813023514" />
     <state x="349" y="152" key="IDE.errors.dialog" timestamp="1582764605869">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -126,5 +126,6 @@ object log2Parquet {
 		val df = spark.sqlContext.createDataFrame(rdd, SchemaUtils.logStructType)
 		// 存储数据
 		df.write.parquet(outputPath)
+		spark.stop()
 	}
 }
