@@ -8,7 +8,6 @@
     <artifactId>DMP1902</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
         <spark.version>2.2.0</spark.version>
         <encoding>UTF-8</encoding>
