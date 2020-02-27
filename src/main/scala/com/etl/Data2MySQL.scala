@@ -1,7 +1,10 @@
 package com.etl
 
+import java.util.Properties
+
+import com.typesafe.config.ConfigFactory
 import org.apache.spark.SparkConf
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{SaveMode, SparkSession}
 
 object Data2MySQL {
 	def main(args: Array[String]): Unit = {
@@ -23,6 +26,12 @@ object Data2MySQL {
 		// 注册临时视图
 		df.createTempView("log")
 		// 执行SQL
-		val result = spark.sql("select")
+		val result = spark.sql("select count(*) ct, provincename, cityname, from log group by provincename, cityname")
+		// 加载配置文件，默认加载resource中的配置文件（.conf  .json  .properties）
+		val load = ConfigFactory.load()
+		val prop = new Properties()
+		prop.setProperty("user",load.getString("jdbc.user"))
+		prop.setProperty("password", load.getString("jdbc.password"))
+		result.write.mode(SaveMode.Append).jdbc(load.getString("jdbc.url"), load.getString("jdbc.tableName"), prop)
 	}
 }

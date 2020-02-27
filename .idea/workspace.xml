@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f1e14cd-e016-4931-8980-d263943a0eab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/etl/Data2MySQL.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/etl/log2Parquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/etl/log2Parquet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/etl/Data2MySQL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/etl/Data2MySQL.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +126,8 @@
       <workItem from="1582725226379" duration="1779000" />
       <workItem from="1582729842782" duration="3971000" />
       <workItem from="1582734080304" duration="9581000" />
+      <workItem from="1582786845294" duration="646000" />
+      <workItem from="1582804749399" duration="1578000" />
     </task>
     <task id="LOCAL-00001" summary="模板测试">
       <created>1582726223238</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582763104511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="etl格式转换代码2">
+      <created>1582786893692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582786893692</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="模板测试" />
     <MESSAGE value="etl格式转换代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="etl格式转换代码" />
+    <MESSAGE value="etl格式转换代码2" />
+    <option name="LAST_COMMIT_MESSAGE" value="etl格式转换代码2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Inspections" timestamp="1582734310803">
@@ -179,10 +187,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="769" y="97" key="#log2Parquet/0.0.1536.834@0.0.1536.834" timestamp="1582735159752" />
-    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1582763103602">
+    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1582786892543">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582763103602" />
+    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582786892543" />
     <state x="446" y="159" key="FileChooserDialogImpl" timestamp="1582735296474">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
