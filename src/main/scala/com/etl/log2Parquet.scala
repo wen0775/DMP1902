@@ -4,7 +4,6 @@ import com.util.{SchemaUtils, Str2Type}
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{Row, SparkSession}
-//import org.apache.spark.Streaming._
 
 
 /**

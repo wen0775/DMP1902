@@ -24,7 +24,7 @@ object Data2MySQL {
 		// 配置SQLContext的压缩方式，默认其实就是snappy压缩，在2.0前不是snappy
 		spark.sqlContext.setConf("spark.sql.parquet.compression.codec", "snappy")
 		// 获取资源
-		var df = spark.read.parquet("D:\\BigData\\BigData-课件和视频\\课件第四阶段\\day097-spark用户画像分析\\资料\\Spark用户画像分析")
+		var df = spark.read.parquet("D:\\BigData\\BigData-课件和视频\\课件第四阶段\\day097-spark用户画像分析\\资料\\Spark用户画像分析\\2016-10-01_06_p1_invalid.1475274123982.log")
 		// 注册临时视图
 		df.createTempView("log")
 		// 执行SQL
