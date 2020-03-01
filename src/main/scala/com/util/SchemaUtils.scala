@@ -1,6 +1,7 @@
 package com.util
 
-import org.apache.spark.sql.types.{DoubleType, IntegerType, StringType, StructField, StructType}
+import org.apache.spark.sql.types._
+
 
 object SchemaUtils {
 

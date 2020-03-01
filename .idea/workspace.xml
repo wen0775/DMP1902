@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1e14cd-e016-4931-8980-d263943a0eab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/etl/Data2MySQL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/etl/Data2MySQL.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/etl/log2Parquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/etl/log2Parquet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/etl/Data2MySQL$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/etl/Data2MySQL$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/com/util" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -182,7 +179,9 @@
       <workItem from="1582786845294" duration="646000" />
       <workItem from="1582804749399" duration="12063000" />
       <workItem from="1582819294826" duration="289000" />
-      <workItem from="1582848868622" duration="3655000" />
+      <workItem from="1582848868622" duration="4353000" />
+      <workItem from="1582865895799" duration="2021000" />
+      <workItem from="1583047424425" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="模板测试">
       <created>1582726223238</created>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582819006966</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更改log2Parquet的路径参数">
+      <created>1582853292910</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582853292910</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +243,8 @@
     <MESSAGE value="etl格式转换代码" />
     <MESSAGE value="etl格式转换代码2" />
     <MESSAGE value="etl格式转换代码3" />
-    <option name="LAST_COMMIT_MESSAGE" value="etl格式转换代码3" />
+    <MESSAGE value="更改log2Parquet的路径参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改log2Parquet的路径参数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Inspections" timestamp="1582734310803">
@@ -264,30 +271,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="769" y="97" key="#log2Parquet/0.0.1536.834@0.0.1536.834" timestamp="1582735159752" />
-    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1582819005444">
+    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1582853291839">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582819005444" />
-    <state x="446" y="159" key="FileChooserDialogImpl" timestamp="1582806491303">
+    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582853291839" />
+    <state x="446" y="159" key="FileChooserDialogImpl" timestamp="1583047436818">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="446" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582806491303" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1582853207527">
+    <state x="446" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583047436818" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1582862050427">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582853207527" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1582853207526">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582862050427" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1582862050427">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582853207526" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1582853207526">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582862050427" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1582862050427">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582853207526" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1582853207526">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582862050427" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1582862050427">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582853207526" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582862050427" />
     <state width="1493" height="649" key="GridCell.Tab.1.bottom" timestamp="1582850306148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -312,10 +319,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582819586278" />
-    <state x="602" y="131" key="Vcs.Push.Dialog.v2" timestamp="1582819017801">
+    <state x="602" y="131" key="Vcs.Push.Dialog.v2" timestamp="1582853301146">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="602" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582819017801" />
+    <state x="602" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582853301146" />
     <state x="795" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582733228206">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
